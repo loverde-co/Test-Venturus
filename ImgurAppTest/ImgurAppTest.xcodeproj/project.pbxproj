@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74261796149708F637207A47 /* Pods_ImgurAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42A728E1E6332B6EB173F44 /* Pods_ImgurAppTest.framework */; };
+		B1C7057C2409B08D000F0ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C7057B2409B08D000F0ED9 /* AppDelegate.swift */; };
+		B1C7057E2409B08D000F0ED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C7057D2409B08D000F0ED9 /* SceneDelegate.swift */; };
+		B1C705802409B08D000F0ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C7057F2409B08D000F0ED9 /* ViewController.swift */; };
+		B1C705832409B08D000F0ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C705812409B08D000F0ED9 /* Main.storyboard */; };
+		B1C705852409B08E000F0ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C705842409B08E000F0ED9 /* Assets.xcassets */; };
+		B1C705882409B08E000F0ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C705862409B08E000F0ED9 /* LaunchScreen.storyboard */; };
+		B1C705932409B293000F0ED9 /* ImgurModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C705922409B293000F0ED9 /* ImgurModel.swift */; };
+		B1C70595240AEB91000F0ED9 /* HomeMainCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C70594240AEB91000F0ED9 /* HomeMainCells.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9381D44D327945A6F250EF64 /* Pods-ImgurAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImgurAppTest.debug.xcconfig"; path = "Target Support Files/Pods-ImgurAppTest/Pods-ImgurAppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C705782409B08D000F0ED9 /* Imgur App Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imgur App Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C7057B2409B08D000F0ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1C7057D2409B08D000F0ED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1C7057F2409B08D000F0ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1C705822409B08D000F0ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1C705842409B08E000F0ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1C705872409B08E000F0ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1C705892409B08E000F0ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C705922409B293000F0ED9 /* ImgurModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurModel.swift; sourceTree = "<group>"; };
+		B1C70594240AEB91000F0ED9 /* HomeMainCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainCells.swift; sourceTree = "<group>"; };
+		B42A728E1E6332B6EB173F44 /* Pods_ImgurAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImgurAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E91251C27E85BD3212DB52 /* Pods-ImgurAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImgurAppTest.release.xcconfig"; path = "Target Support Files/Pods-ImgurAppTest/Pods-ImgurAppTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1C705752409B08D000F0ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74261796149708F637207A47 /* Pods_ImgurAppTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7395113DEFEAF3B59F342B33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9381D44D327945A6F250EF64 /* Pods-ImgurAppTest.debug.xcconfig */,
+				E4E91251C27E85BD3212DB52 /* Pods-ImgurAppTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F2AC7883E8B541A761139BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B42A728E1E6332B6EB173F44 /* Pods_ImgurAppTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1C7056F2409B08D000F0ED9 = {
+			isa = PBXGroup;
+			children = (
+				B1C7057A2409B08D000F0ED9 /* ImgurAppTest */,
+				B1C705792409B08D000F0ED9 /* Products */,
+				7395113DEFEAF3B59F342B33 /* Pods */,
+				8F2AC7883E8B541A761139BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1C705792409B08D000F0ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1C705782409B08D000F0ED9 /* Imgur App Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1C7057A2409B08D000F0ED9 /* ImgurAppTest */ = {
+			isa = PBXGroup;
+			children = (
+				B1C705912409B285000F0ED9 /* DataModel */,
+				B1C705902409B27E000F0ED9 /* Controllers */,
+				B1C7058F2409B276000F0ED9 /* Views */,
+				B1C7057B2409B08D000F0ED9 /* AppDelegate.swift */,
+				B1C7057D2409B08D000F0ED9 /* SceneDelegate.swift */,
+				B1C7057F2409B08D000F0ED9 /* ViewController.swift */,
+				B1C705812409B08D000F0ED9 /* Main.storyboard */,
+				B1C705842409B08E000F0ED9 /* Assets.xcassets */,
+				B1C705862409B08E000F0ED9 /* LaunchScreen.storyboard */,
+				B1C705892409B08E000F0ED9 /* Info.plist */,
+			);
+			path = ImgurAppTest;
+			sourceTree = "<group>";
+		};
+		B1C7058F2409B276000F0ED9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1C705902409B27E000F0ED9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1C70594240AEB91000F0ED9 /* HomeMainCells.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B1C705912409B285000F0ED9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1C705922409B293000F0ED9 /* ImgurModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1C705772409B08D000F0ED9 /* ImgurAppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C7058C2409B08E000F0ED9 /* Build configuration list for PBXNativeTarget "ImgurAppTest" */;
+			buildPhases = (
+				86145733BD2FD19867288A02 /* [CP] Check Pods Manifest.lock */,
+				B1C705742409B08D000F0ED9 /* Sources */,
+				B1C705752409B08D000F0ED9 /* Frameworks */,
+				B1C705762409B08D000F0ED9 /* Resources */,
+				AAB60DE0FADFC34222E7B439 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImgurAppTest;
+			productName = ImgurAppTest;
+			productReference = B1C705782409B08D000F0ED9 /* Imgur App Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1C705702409B08D000F0ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Loverde Co";
+				TargetAttributes = {
+					B1C705772409B08D000F0ED9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B1C705732409B08D000F0ED9 /* Build configuration list for PBXProject "ImgurAppTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1C7056F2409B08D000F0ED9;
+			productRefGroup = B1C705792409B08D000F0ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1C705772409B08D000F0ED9 /* ImgurAppTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1C705762409B08D000F0ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C705882409B08E000F0ED9 /* LaunchScreen.storyboard in Resources */,
+				B1C705852409B08E000F0ED9 /* Assets.xcassets in Resources */,
+				B1C705832409B08D000F0ED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86145733BD2FD19867288A02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImgurAppTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB60DE0FADFC34222E7B439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImgurAppTest/Pods-ImgurAppTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImgurAppTest/Pods-ImgurAppTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImgurAppTest/Pods-ImgurAppTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1C705742409B08D000F0ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C705802409B08D000F0ED9 /* ViewController.swift in Sources */,
+				B1C705932409B293000F0ED9 /* ImgurModel.swift in Sources */,
+				B1C7057C2409B08D000F0ED9 /* AppDelegate.swift in Sources */,
+				B1C70595240AEB91000F0ED9 /* HomeMainCells.swift in Sources */,
+				B1C7057E2409B08D000F0ED9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1C705812409B08D000F0ED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C705822409B08D000F0ED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1C705862409B08E000F0ED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1C705872409B08E000F0ED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1C7058A2409B08E000F0ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1C7058B2409B08E000F0ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1C7058D2409B08E000F0ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9381D44D327945A6F250EF64 /* Pods-ImgurAppTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4E5BZMM4V;
+				INFOPLIST_FILE = ImgurAppTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.loverde.Imgur-Fetch-Image-Test";
+				PRODUCT_NAME = "Imgur App Test";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1C7058E2409B08E000F0ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E91251C27E85BD3212DB52 /* Pods-ImgurAppTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4E5BZMM4V;
+				INFOPLIST_FILE = ImgurAppTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.loverde.Imgur-Fetch-Image-Test";
+				PRODUCT_NAME = "Imgur App Test";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1C705732409B08D000F0ED9 /* Build configuration list for PBXProject "ImgurAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C7058A2409B08E000F0ED9 /* Debug */,
+				B1C7058B2409B08E000F0ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C7058C2409B08E000F0ED9 /* Build configuration list for PBXNativeTarget "ImgurAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C7058D2409B08E000F0ED9 /* Debug */,
+				B1C7058E2409B08E000F0ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1C705702409B08D000F0ED9 /* Project object */;
+}

@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.0.2)
+  - LCEssentials (0.3.7.2):
+    - Alamofire
+  - SVProgressHUD (2.2.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - LCEssentials
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - LCEssentials
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: 4fdf3fdc8703fd9915dae33fc1363c604a06b24e
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  LCEssentials: e763c4b570eea0c3d82888365776294b5dc77ffc
+  SVProgressHUD: 6ed134667e9ebb2f33679e8273cd48fd3fa349e5
+
+PODFILE CHECKSUM: 4d72432a58ccf9a6b30c8ed049aa5822b5b52fd0
+
+COCOAPODS: 1.8.4
