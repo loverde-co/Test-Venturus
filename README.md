@@ -1,24 +1,15 @@
-This is a private repository for XXX &copy;
+This is a public repository for Venturus Test position
 ----
-App Name: XXXXX
+App Name: Imgur App Test
 ----
-> Writen in Swift 4 - XCode 9.3.1
+> Writen in Swift 5 - XCode 11.*
 > 
-> iOS 10.+
+> iOS 11.+
 
 ----
-App Access Login
-----
-> Login: XXXXX
-> 
-> Passwd: XXXXX
-> 
+This app aims to be analyzed by Venturus for the iOS Developer position
 
 ----
-CocoaPods Used:
-----
-[Ver arquivo Podfile](https://bitbucket.org/PATHFILE?raw=true "Podfile")
-
 
 Author of v1.0
 --------
