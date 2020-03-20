@@ -30,7 +30,7 @@ class HomeMainCells: UICollectionViewCell {
     
     var objeto: ImgurModel! {
         didSet {
-            // SADLY, IMGUR IS TAKING TOO LONG TO RETURN AN IMAGE. MAYBE THIS IS CAUSE FREE REQUEST API....
+            // SADLY, IMGUR IS TAKING TOO LONG TO RETURN AN IMAGE. MAYBE THIS IS CAUSED BY FREE REQUEST API....
             if let link = self.objeto.images?.first?.link {
                 self.img.loadImageUsingUrlString(urlString: link, defaultImage: nil) { (image, error) in
                     self.loading.stopAnimating()

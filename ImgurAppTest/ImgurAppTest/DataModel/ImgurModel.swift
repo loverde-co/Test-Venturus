@@ -45,9 +45,7 @@ struct ImgurModel: Codable {
                         output?.append(append)
                     })
                     completion(output)
-                    //printInfo(title: "RESULT", msg: json)
                 }else{
-                    //printInfo(title: "", msg: result.debugDescription)
                     completion(nil)
                 }
             }
